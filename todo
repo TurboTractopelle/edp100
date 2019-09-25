@@ -1,0 +1,53 @@
+In order to bring together information relating to the 100th anniversary of EDP Sciences, a webpage is needed.
+
+Page spécifique 100ans, full react dtg
+
+Logo en grand 
+texte générique de présenation 
+
+Système d affichage avec de section avec du fixed background
+
+Transition amusante entre les sections, pas forcément un trait horizontale.
+
+
+Carte du monde intéractive  ?
+
+
+☐ Une timeline of major events in 1920 to provide context e.g
+pourrait être une sorte de diaporama, ou des cartes qui défilent
+ou même un gros composant statique à la pinterest.
+
+
+☐ Very brief history of EDP Sciences and its founders
+Des photos avec du texte 
+ou une ligne descendante avec de chque côté en descendant les images 
+illustrant le bordel
+
+☐ Anniversary event details
+Une sorte de checklist, écrite dans une section avec un affichage comme 
+si c était une page que l on enverrait pour inviter qq un.
+Voir pour une animation d une enveloppe qui s ouvre en descendant la page.
+
+☐ Advisory committee members
+Juste les photos en mode affiche avec les infos des personnes plus complète 
+en mode <Card />
+
+☐ 4open special issue 
+https://www.osa.org/en-us/history/milestones/centennial_book/
+Ok on intègre le contenu dans un sommaire le tout dépliant pour pas tout péter 
+non plus. Limite on fetch à l ouverture, merci axios
+
+☐ Anniversary video
+Zone avec une vidéo, image de fond qui va avec.
+
+☐ Archive content made free for the occasion 
+https://www.osa.org/en-us/history/milestones/
+Ok une zone avec des archives téléchargeables
+
+☐ Zone d affichage avec une centaine d image en aperçu.
+En click sur une petite, elle est chargée pour apparaitre dans la zone principale.
+
+☐ Quizzes and competitions 
+Un formulaire en ligne avec un state local pour une série de questions
+
+
