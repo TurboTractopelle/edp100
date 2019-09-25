@@ -1,0 +1,83 @@
+@import "variables.scss";
+
+.App {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+figure.c {
+  text-align: center;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 4rem);
+  padding: 1rem;
+
+  &:nth-child(2n + 1) {
+    background: $bgColor;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  & div:first-child {
+    flex: 1;
+    padding: 2rem;
+  }
+  .backtop {
+    align-self: flex-end;
+    a {
+      display: block;
+      border-radius: 3px;
+      transition: all ease 500ms;
+      padding: 0 1rem;
+      &:hover {
+        color: #fff;
+        background: #a20015;
+      }
+    }
+  }
+}
+
+#top {
+  color: #fff;
+  background: transparent url("../assets/images/01.jpg") repeat fixed center
+    bottom / cover;
+  h1 {
+    font-size: 4rem;
+  }
+  nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 0;
+        padding: 0.2rem;
+        a {
+          color: #fff;
+          text-decoration: none;
+          background: rgba(0, 0, 0, 0.85);
+          padding: 0.1rem 0.5rem;
+          border-radius: 3px;
+          transition: all ease 500ms;
+          &:hover {
+            background: #a20015;
+          }
+          span {
+            padding-left: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

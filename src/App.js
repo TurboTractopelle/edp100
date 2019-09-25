@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./assets/edp100.scss";
+import Intro from "./components/Intro";
+import Section from "./hoc/Section";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Intro />
+      <Section id="timeline" title="Timeline" />
+      <Section id="history" title="History" />
+      <Section id="event-details" title="Event details" />
+      <Section id="advisory" title="Advisory" />
+      <Section id="4open" title="4open" />
+      <Section id="video" title="video" />
+      <Section id="archive" title="archive" />
+      <Section id="ppt" title="ppt" />
+      <Section id="photos" title="photos" />
+      <Section id="quiz" title="quiz" />
+      <Section id="memories" title="memories" />
+      <Section id="series" title="series" />
     </div>
   );
 }
